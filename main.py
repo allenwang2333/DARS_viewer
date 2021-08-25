@@ -14,7 +14,7 @@ driver.get('https://www.my.ucla.edu')
 
 #go to the sign in page
 driver.find_element_by_id("ctl00_signInLink").click()
-time.sleep(2)
+time.sleep(4)
 
 #sign in
 driver.find_element_by_id("logon").send_keys(username)
