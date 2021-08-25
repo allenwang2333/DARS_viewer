@@ -8,6 +8,7 @@ with open('config.yaml','r') as f:
     username = username.replace('\n','')
     password = myList[1].split(' ')[-1]
 
+#open MyUCLA
 driver = webdriver.Chrome(executable_path='chromedriver')
 driver.get('https://www.my.ucla.edu')
 
